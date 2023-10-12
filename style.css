@@ -37,17 +37,20 @@ nav ul li{
     font-size: 1.3rem;
 }
 
-.container{
+.container {
     min-height: 72vh;
     background-color: goldenrod;
     color: white;
-   font-family: 'Varela Round', sans-serif;
-   display: flex;
-   margin: 23px auto;
-   width: 70%;
-   border-radius: 12px;
-   padding: 34px;
-   background-image: url('bg.jpg');
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('covers/11.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .progress-bar {
     position: relative;
@@ -72,7 +75,7 @@ nav ul li{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 30px;
     background-color: purple;
     color: yellowgreen;
     display: flex;
@@ -82,8 +85,11 @@ nav ul li{
     z-index: 2; /* Add z-index to ensure the song info is on top */
 }
 
+
 .bottom:hover {
-    height: 130px;
+    background-color: yellowgreen;
+    color: purple;
+    height: 80px;
 }
 
 .play-button {
@@ -118,10 +124,7 @@ nav ul li{
     cursor: pointer;
 }
 
-#myProgressBar{
-    width: 80vw; 
-    cursor: pointer;
-}
+
 
 .songItemContainer{
     margin-top: 74px;
